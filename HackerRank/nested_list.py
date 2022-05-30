@@ -8,7 +8,6 @@ if __name__ == '__main__':
     students = sorted(students, key = lambda x: x[1])
 
     second_lowest = students[1][1]
-    print(second_lowest)
 
     required_students = []
 
